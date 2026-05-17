@@ -3,10 +3,10 @@
 [![PyPI](https://img.shields.io/pypi/v/hawkapi-otel)](https://pypi.org/project/hawkapi-otel/)
 [![Python](https://img.shields.io/pypi/pyversions/hawkapi-otel)](https://pypi.org/project/hawkapi-otel/)
 [![License](https://img.shields.io/pypi/l/hawkapi-otel)](LICENSE)
-[![CI](https://github.com/ashimov/hawkapi-otel/actions/workflows/ci.yml/badge.svg)](https://github.com/ashimov/hawkapi-otel/actions/workflows/ci.yml)
+[![CI](https://github.com/Hawk-API/hawkapi-otel/actions/workflows/ci.yml/badge.svg)](https://github.com/Hawk-API/hawkapi-otel/actions/workflows/ci.yml)
 [![Downloads](https://img.shields.io/pypi/dm/hawkapi-otel)](https://pypi.org/project/hawkapi-otel/)
 
-OpenTelemetry integration for [HawkAPI](https://github.com/ashimov/HawkAPI) — a plugin that initialises the OTel SDK on startup and a middleware that creates a server span per request, with full W3C trace-context propagation.
+OpenTelemetry integration for [HawkAPI](https://github.com/Hawk-API/HawkAPI) — a plugin that initialises the OTel SDK on startup and a middleware that creates a server span per request, with full W3C trace-context propagation.
 
 Works out of the box with a local OTLP collector. One-liner configs for Honeycomb, Grafana Cloud, Datadog, and Jaeger are listed below.
 
@@ -122,7 +122,7 @@ OTelPlugin(
 
 ```bash
 # Clone and install in editable mode with dev extras
-git clone https://github.com/ashimov/hawkapi-otel.git
+git clone https://github.com/Hawk-API/hawkapi-otel.git
 cd hawkapi-otel
 uv sync --extra dev
 

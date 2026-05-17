@@ -62,5 +62,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - CI workflow: lint (`ruff`), typecheck (`pyright` strict), test matrix (Python 3.12 + 3.13).
 - Release workflow: build with `uv build`, publish via PyPI trusted publishing.
 
-[Unreleased]: https://github.com/ashimov/hawkapi-otel/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/ashimov/hawkapi-otel/releases/tag/v0.1.0
+[Unreleased]: https://github.com/Hawk-API/hawkapi-otel/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/Hawk-API/hawkapi-otel/releases/tag/v0.1.0

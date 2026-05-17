@@ -35,8 +35,8 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://pypi.org/project/hawkapi-otel/"
-Repository = "https://github.com/ashimov/hawkapi-otel"
-Issues = "https://github.com/ashimov/hawkapi-otel/issues"
+Repository = "https://github.com/Hawk-API/hawkapi-otel"
+Issues = "https://github.com/Hawk-API/hawkapi-otel/issues"
 
 [project.optional-dependencies]
 dev = [
